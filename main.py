@@ -3,7 +3,7 @@ import time
 
 # Captura a URL e insere um código de Injeção XSS
 url = input("Digite a URL a ser Pesquisada: ")
-urlXSS = url + '\'<script>window.alert("Esse site está vlunerável a falhas XSS")</script>\''
+urlXSS = url + '\'<script>window.alert("Esse site está vulnerável a falhas XSS")</script>\''
 
 # Abre o Chrome
 driver = webdriver.Chrome()
